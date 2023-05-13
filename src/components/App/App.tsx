@@ -1,8 +1,9 @@
+import { Auth } from "../Auth/Auth";
 import "./App.css";
 import "./normalize.css";
 
 function App() {
-  return <div></div>;
+  return <Auth />;
 }
 
 export default App;
