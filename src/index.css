@@ -12,3 +12,21 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+* {
+  scrollbar-color: rgba(196, 196, 196, 0.4) rgba(196, 196, 196, 0.15);
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: rgba(196, 196, 196, 0.15);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgba(196, 196, 196, 0.4);
+  border: 1px solid transparent;
+  background-clip: padding-box;
+}
